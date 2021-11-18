@@ -65,32 +65,47 @@ include CMakeFiles/Malbolge.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Malbolge.dir/flags.make
 
-CMakeFiles/Malbolge.dir/src/main.cpp.obj: CMakeFiles/Malbolge.dir/flags.make
-CMakeFiles/Malbolge.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Malbolge.dir/src/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Malbolge.dir\src\main.cpp.obj -c C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\main.cpp
+CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj: CMakeFiles/Malbolge.dir/flags.make
+CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj: ../src/Client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Malbolge.dir\src\Client\main.cpp.obj -c C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\main.cpp
 
-CMakeFiles/Malbolge.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Malbolge.dir/src/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\main.cpp > CMakeFiles\Malbolge.dir\src\main.cpp.i
+CMakeFiles/Malbolge.dir/src/Client/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Malbolge.dir/src/Client/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\main.cpp > CMakeFiles\Malbolge.dir\src\Client\main.cpp.i
 
-CMakeFiles/Malbolge.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Malbolge.dir/src/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\main.cpp -o CMakeFiles\Malbolge.dir\src\main.cpp.s
+CMakeFiles/Malbolge.dir/src/Client/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Malbolge.dir/src/Client/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\main.cpp -o CMakeFiles\Malbolge.dir\src\Client\main.cpp.s
+
+CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj: CMakeFiles/Malbolge.dir/flags.make
+CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj: ../src/Client/Networking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Malbolge.dir\src\Client\Networking.cpp.obj -c C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\Networking.cpp
+
+CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\Networking.cpp > CMakeFiles\Malbolge.dir\src\Client\Networking.cpp.i
+
+CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\src\Client\Networking.cpp -o CMakeFiles\Malbolge.dir\src\Client\Networking.cpp.s
 
 # Object files for target Malbolge
 Malbolge_OBJECTS = \
-"CMakeFiles/Malbolge.dir/src/main.cpp.obj"
+"CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj" \
+"CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj"
 
 # External object files for target Malbolge
 Malbolge_EXTERNAL_OBJECTS =
 
-Malbolge.exe: CMakeFiles/Malbolge.dir/src/main.cpp.obj
+Malbolge.exe: CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj
+Malbolge.exe: CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj
 Malbolge.exe: CMakeFiles/Malbolge.dir/build.make
 Malbolge.exe: CMakeFiles/Malbolge.dir/linklibs.rsp
 Malbolge.exe: CMakeFiles/Malbolge.dir/objects1.rsp
 Malbolge.exe: CMakeFiles/Malbolge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Malbolge.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\leon-patrick.hammerich\CLionProjects\Malbolge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Malbolge.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Malbolge.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

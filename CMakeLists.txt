@@ -4,4 +4,5 @@ project(Malbolge)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Malbolge
-        main.cpp)
+        src/Client/main.cpp
+        src/Client/Networking.cpp)

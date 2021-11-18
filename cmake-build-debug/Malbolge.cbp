@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/main.cpp">
+		<Unit filename="C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/Client/Networking.cpp">
+			<Option target="Malbolge"/>
+		</Unit>
+		<Unit filename="C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/Client/Networking.h">
+			<Option target="Malbolge"/>
+		</Unit>
+		<Unit filename="C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/Client/main.cpp">
 			<Option target="Malbolge"/>
 		</Unit>
 		<Unit filename="C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/CMakeLists.txt">
