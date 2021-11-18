@@ -2,7 +2,13 @@
 // Created by Jeuio on 18.11.2021.
 //
 
-int main() {
+#include <QApplication>
+#include <QPushButton>
 
-    return 0;
+int main(int argc, char *argv[]) {
+    QApplication a(argc, argv);
+    QPushButton button("Hello world!", nullptr);
+    button.resize(200, 100);
+    button.show();
+    return QApplication::exec();
 }
