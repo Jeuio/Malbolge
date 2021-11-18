@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_PREFIX_PATH  "C:/Qt/6.2.1/mingw81_64/lib/cmake/")
-
+set(CMAKE_PREFIX_PATH  "C:/Qt/6.2.1/mingw81_64/lib/cmake/")
 find_package(Qt6Widgets REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
