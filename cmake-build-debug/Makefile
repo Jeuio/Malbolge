@@ -128,29 +128,53 @@ Malbolge/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/build
 .PHONY : Malbolge/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/Client/Networking.obj: src/Client/Networking.cpp.obj
+.PHONY : src/Client/Networking.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/Client/Networking.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj
+.PHONY : src/Client/Networking.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Client/Networking.i: src/Client/Networking.cpp.i
+.PHONY : src/Client/Networking.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Client/Networking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.i
+.PHONY : src/Client/Networking.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Client/Networking.s: src/Client/Networking.cpp.s
+.PHONY : src/Client/Networking.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Client/Networking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.s
+.PHONY : src/Client/Networking.cpp.s
+
+src/Client/main.obj: src/Client/main.cpp.obj
+.PHONY : src/Client/main.obj
+
+# target to build an object file
+src/Client/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj
+.PHONY : src/Client/main.cpp.obj
+
+src/Client/main.i: src/Client/main.cpp.i
+.PHONY : src/Client/main.i
+
+# target to preprocess a source file
+src/Client/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/main.cpp.i
+.PHONY : src/Client/main.cpp.i
+
+src/Client/main.s: src/Client/main.cpp.s
+.PHONY : src/Client/main.s
+
+# target to generate assembly for a file
+src/Client/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Malbolge.dir\build.make CMakeFiles/Malbolge.dir/src/Client/main.cpp.s
+.PHONY : src/Client/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Malbolge
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/Client/Networking.obj
+	@echo ... src/Client/Networking.i
+	@echo ... src/Client/Networking.s
+	@echo ... src/Client/main.obj
+	@echo ... src/Client/main.i
+	@echo ... src/Client/main.s
 .PHONY : help
 
 

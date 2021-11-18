@@ -1,2 +1,2 @@
 # Malbolge
-## A poorly done crypto currency project
+## A poorly done crypto currency project.

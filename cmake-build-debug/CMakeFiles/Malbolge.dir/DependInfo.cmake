@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/main.cpp" "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/main.cpp.obj"
+  "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/Client/Networking.cpp" "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj"
+  "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/src/Client/main.cpp" "C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
