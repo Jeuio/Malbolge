@@ -1,0 +1,3 @@
+C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir
+C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/leon-patrick.hammerich/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
