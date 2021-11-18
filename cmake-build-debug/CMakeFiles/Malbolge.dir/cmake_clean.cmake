@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.obj"
-  "CMakeFiles/Malbolge.dir/src/Client/main.cpp.obj"
-  "Malbolge.exe"
-  "Malbolge.exe.manifest"
+  "CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o"
+  "CMakeFiles/Malbolge.dir/src/Client/main.cpp.o"
+  "Malbolge"
   "Malbolge.pdb"
-  "libMalbolge.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
