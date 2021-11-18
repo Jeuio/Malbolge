@@ -177,6 +177,30 @@ src/Client/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Malbolge.dir/build.make CMakeFiles/Malbolge.dir/src/Client/main.cpp.s
 .PHONY : src/Client/main.cpp.s
 
+src/helloWorld.o: src/helloWorld.cpp.o
+.PHONY : src/helloWorld.o
+
+# target to build an object file
+src/helloWorld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Malbolge.dir/build.make CMakeFiles/Malbolge.dir/src/helloWorld.cpp.o
+.PHONY : src/helloWorld.cpp.o
+
+src/helloWorld.i: src/helloWorld.cpp.i
+.PHONY : src/helloWorld.i
+
+# target to preprocess a source file
+src/helloWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Malbolge.dir/build.make CMakeFiles/Malbolge.dir/src/helloWorld.cpp.i
+.PHONY : src/helloWorld.cpp.i
+
+src/helloWorld.s: src/helloWorld.cpp.s
+.PHONY : src/helloWorld.s
+
+# target to generate assembly for a file
+src/helloWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Malbolge.dir/build.make CMakeFiles/Malbolge.dir/src/helloWorld.cpp.s
+.PHONY : src/helloWorld.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/Client/main.o"
 	@echo "... src/Client/main.i"
 	@echo "... src/Client/main.s"
+	@echo "... src/helloWorld.o"
+	@echo "... src/helloWorld.i"
+	@echo "... src/helloWorld.s"
 .PHONY : help
 
 

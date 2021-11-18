@@ -6,3 +6,5 @@ CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o: \
  ../src/Client/Networking.h
 CMakeFiles/Malbolge.dir/src/Client/main.cpp.o: \
  ../src/Client/main.cpp
+CMakeFiles/Malbolge.dir/src/helloWorld.cpp.o: \
+ ../src/helloWorld.cpp

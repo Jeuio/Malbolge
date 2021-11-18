@@ -91,6 +91,9 @@
 		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/Client/main.cpp">
 			<Option target="Malbolge"/>
 		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/helloWorld.cpp">
+			<Option target="Malbolge"/>
+		</Unit>
 		<Unit filename="/home/jeremy/CLionProjects/Malbolge/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

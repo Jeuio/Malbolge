@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jeremy/CLionProjects/Malbolge/src/Client/Networking.cpp" "/home/jeremy/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o"
   "/home/jeremy/CLionProjects/Malbolge/src/Client/main.cpp" "/home/jeremy/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/Client/main.cpp.o"
+  "/home/jeremy/CLionProjects/Malbolge/src/helloWorld.cpp" "/home/jeremy/CLionProjects/Malbolge/cmake-build-debug/CMakeFiles/Malbolge.dir/src/helloWorld.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o"
   "CMakeFiles/Malbolge.dir/src/Client/main.cpp.o"
+  "CMakeFiles/Malbolge.dir/src/helloWorld.cpp.o"
   "Malbolge"
   "Malbolge.pdb"
 )

@@ -6,25 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jeremy/CLionProjects/Malbolge/src/Client/Networking.cpp
-Networking.h
-/home/jeremy/CLionProjects/Malbolge/src/Client/Networking.h
-
-/home/jeremy/CLionProjects/Malbolge/src/Client/Networking.h
-winsock2.h
--
-sys/socket.h
-/home/jeremy/CLionProjects/Malbolge/src/Client/sys/socket.h
-Windows.h
--
-ws2tcpip.h
--
-stdio.h
--
-map
--
-
-/home/jeremy/CLionProjects/Malbolge/src/Client/main.cpp
+/home/jeremy/CLionProjects/Malbolge/src/helloWorld.cpp
 QApplication
 -
 QPushButton

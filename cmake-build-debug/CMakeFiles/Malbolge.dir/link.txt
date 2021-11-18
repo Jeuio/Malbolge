@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Malbolge.dir/src/Client/main.cpp.o CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o -o Malbolge 
+/usr/bin/c++ -g CMakeFiles/Malbolge.dir/src/Client/main.cpp.o CMakeFiles/Malbolge.dir/src/Client/Networking.cpp.o CMakeFiles/Malbolge.dir/src/helloWorld.cpp.o -o Malbolge 
