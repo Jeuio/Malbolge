@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Malbolge"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\6.2.1\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\3rdparty\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\;CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Malbolge">
+				<Option output="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge_autogen/include"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/mkspecs/linux-g++"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtGui"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Malbolge"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Malbolge/fast">
+				<Option output="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src"/>
+					<Add directory="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge_autogen/include"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/mkspecs/linux-g++"/>
+					<Add directory="/home/jeremy/Qt/6.2.1/gcc_64/include/QtGui"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Malbolge/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Malbolge_autogen">
+				<Option working_dir="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Malbolge_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge_autogen/mocs_compilation.cpp">
+			<Option target="Malbolge"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/helloWorld.cpp">
+			<Option target="Malbolge"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/CLionProjects/Malbolge/src/../../../Qt/6.2.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\6.2.1\gcc_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
