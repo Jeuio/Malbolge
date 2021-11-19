@@ -1,4 +1,25 @@
-/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/jeremy/CLionProjects/Malbolge/src
--- Configuring done
--- Generating done
--- Build files have been written to: /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug
+/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/jeremy/CLionProjects/Malbolge/src
+CMake Error: The source "/usr/lib64/cmake/Qt6/config.tests/static_link_order/CMakeLists.txt" does not match the source "/home/jeremy/Qt/6.2.1/gcc_64/lib/cmake/Qt6/config.tests/static_link_order/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Error at /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:36 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:78 (__qt_internal_static_link_order_public_test)
+  /usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (__qt_internal_check_link_order_matters)
+  /opt/clion/bin/cmake/linux/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:8 (find_dependency)
+  /usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Error at CMakeLists.txt:10 (find_package):
+  Found package configuration file:
+
+    /usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+
+  but it set Qt6Widgets_FOUND to FALSE so package "Qt6Widgets" is considered
+  to be NOT FOUND.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeError.log".

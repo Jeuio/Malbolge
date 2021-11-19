@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_PREFIX_PATH "~/Qt/6.2.1/gcc_64/lib/cmake")
+set(CMAKE_PREFIX_PATH "/usr/include/qt6")
 
 find_package(Qt6Widgets REQUIRED)
 

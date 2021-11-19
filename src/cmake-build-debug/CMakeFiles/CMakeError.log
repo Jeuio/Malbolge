@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_44690/fast && /usr/bin/make  -f CMakeFiles/cmTC_44690.dir/build.make CMakeFiles/cmTC_44690.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ad08/fast && /usr/bin/make  -f CMakeFiles/cmTC_4ad08.dir/build.make CMakeFiles/cmTC_4ad08.dir/build
 make[1]: Entering directory '/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44690.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_44690.dir/src.c.o -c /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_44690
-/app/extra/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44690.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_44690.dir/src.c.o -o cmTC_44690 
-/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld: CMakeFiles/cmTC_44690.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_4ad08.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4ad08.dir/src.c.o -c /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4ad08
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad08.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4ad08.dir/src.c.o -o cmTC_4ad08 
+/usr/bin/ld: CMakeFiles/cmTC_4ad08.dir/src.c.o: in function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
-/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
-/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
-/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../x86_64-unknown-linux-gnu/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
+/usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_44690.dir/build.make:99: cmTC_44690] Error 1
+make[1]: *** [CMakeFiles/cmTC_4ad08.dir/build.make:99: cmTC_4ad08] Error 1
 make[1]: Leaving directory '/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_44690/fast] Error 2
+make: *** [Makefile:127: cmTC_4ad08/fast] Error 2
 
 
 Source file was:

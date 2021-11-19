@@ -1,4 +1,0 @@
-/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/Malbolge.dir
-/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/Malbolge_autogen.dir
