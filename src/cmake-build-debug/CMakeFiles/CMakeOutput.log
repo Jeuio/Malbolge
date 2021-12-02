@@ -425,3 +425,37 @@ make[1]: Leaving directory '/home/jeremy/CLionProjects/Malbolge/src/cmake-build-
 
 
 
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_06caf/fast && /usr/bin/make  -f CMakeFiles/cmTC_06caf.dir/build.make CMakeFiles/cmTC_06caf.dir/build
+make[1]: Entering directory '/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06caf.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_06caf.dir/src.cxx.o -c /home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06caf
+/app/extra/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06caf.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_06caf.dir/src.cxx.o -o cmTC_06caf 
+make[1]: Leaving directory '/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}

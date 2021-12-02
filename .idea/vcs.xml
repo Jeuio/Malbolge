@@ -2,44 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qt3d" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qt5compat" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtactiveqt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtbase" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtcanvas3d" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtcharts" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtcoap" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtconnectivity" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtdatavis3d" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtdeclarative" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtdoc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtfeedback" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtgamepad" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtimageformats" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtlocation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtlottie" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtmqtt" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtmultimedia" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtnetworkauth" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtopcua" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtpim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtpositioning" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtqa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtquick3d" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtquicktimeline" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtremoteobjects" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtrepotools" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtscxml" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtsensors" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtserialbus" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtserialport" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtshadertools" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtspeech" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtsvg" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtsystems" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qttools" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qttranslations" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/qt/qtvirtualkeyboard" vcs="Git" />
   </component>
 </project>

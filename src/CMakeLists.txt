@@ -4,10 +4,11 @@ project(Malbolge)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_PREFIX_PATH "~/Qt/6.2.1/gcc_64/lib/cmake")
 set(CMAKE_PREFIX_PATH "/usr/include/qt6")
+set(CMAKE_PREFIX_PATH "~/Qt/6.2.1/gcc_64")
 
-find_package(Qt6Widgets REQUIRED)
+
+find_package(Qt6 COMPONENTS Core Widgets  REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -17,4 +18,4 @@ add_executable(Malbolge
 
         helloWorld.cpp)
 
-target_link_libraries(Malbolge Qt6::Widgets Qt6::Core)
+target_link_libraries(Malbolge  Qt6::Widgets Qt6::Core)
