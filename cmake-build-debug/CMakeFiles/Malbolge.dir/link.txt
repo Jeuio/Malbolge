@@ -1,3 +1,0 @@
-"C:\Users\leon-patrick.hammerich\AppData\Local\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Malbolge.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Malbolge.dir/objects.a @CMakeFiles\Malbolge.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Malbolge.dir/objects.a -Wl,--no-whole-archive -o Malbolge.exe -Wl,--out-implib,libMalbolge.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Malbolge.dir\linklibs.rsp

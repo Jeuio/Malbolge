@@ -4,5 +4,8 @@ project(Malbolge)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Malbolge
-        src/Client/main.cpp
-        src/Client/Networking.cpp)
+        main.cpp
+        src/POW/POW.cpp
+        src/POW/POW.h
+        src/POW/PrimeGenerator.cpp
+        src/POW/PrimeGenerator.h)
