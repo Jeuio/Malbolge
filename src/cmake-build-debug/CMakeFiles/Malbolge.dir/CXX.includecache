@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jeremy/CLionProjects/Malbolge/src/cmake-build-debug/Malbolge_autogen/mocs_compilation.cpp
+
+/home/jeremy/CLionProjects/Malbolge/src/helloWorld.cpp
+QApplication
+-
+QPushButton
+-
+QWidget
+-
+
