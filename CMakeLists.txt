@@ -8,4 +8,4 @@ add_executable(Malbolge
         src/POW/POW.cpp
         src/POW/POW.h
         src/POW/PrimeGenerator.cpp
-        src/POW/PrimeGenerator.h)
+        src/POW/PrimeGenerator.h src/POW/Solver.cpp src/POW/Solver.h)

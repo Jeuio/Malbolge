@@ -21,5 +21,5 @@ public:
 
     void generatePrimes();
 
-    std::vector<int>* getPrimes();
+    std::vector<unsigned int>* getPrimes();
 };
